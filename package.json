@@ -2,7 +2,7 @@
   "name": "react-pad",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://kurtchoi.dev/reactpad",
+  "homepage": "https://kurtchoi.dev/ReactPad",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
