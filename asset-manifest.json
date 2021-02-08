@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ReactPad/static/css/main.74e88728.chunk.css",
-    "main.js": "/ReactPad/static/js/main.321110be.chunk.js",
-    "main.js.map": "/ReactPad/static/js/main.321110be.chunk.js.map",
+    "main.css": "/ReactPad/static/css/main.8dcd1435.chunk.css",
+    "main.js": "/ReactPad/static/js/main.c264f8bf.chunk.js",
+    "main.js.map": "/ReactPad/static/js/main.c264f8bf.chunk.js.map",
     "runtime-main.js": "/ReactPad/static/js/runtime-main.e8f076a8.js",
     "runtime-main.js.map": "/ReactPad/static/js/runtime-main.e8f076a8.js.map",
     "static/js/2.4e945ff6.chunk.js": "/ReactPad/static/js/2.4e945ff6.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.78e68b4c.chunk.js": "/ReactPad/static/js/3.78e68b4c.chunk.js",
     "static/js/3.78e68b4c.chunk.js.map": "/ReactPad/static/js/3.78e68b4c.chunk.js.map",
     "index.html": "/ReactPad/index.html",
-    "static/css/main.74e88728.chunk.css.map": "/ReactPad/static/css/main.74e88728.chunk.css.map",
+    "static/css/main.8dcd1435.chunk.css.map": "/ReactPad/static/css/main.8dcd1435.chunk.css.map",
     "static/js/2.4e945ff6.chunk.js.LICENSE.txt": "/ReactPad/static/js/2.4e945ff6.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/ReactPad/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e8f076a8.js",
     "static/js/2.4e945ff6.chunk.js",
-    "static/css/main.74e88728.chunk.css",
-    "static/js/main.321110be.chunk.js"
+    "static/css/main.8dcd1435.chunk.css",
+    "static/js/main.c264f8bf.chunk.js"
   ]
 }
