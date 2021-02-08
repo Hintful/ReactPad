@@ -114,6 +114,9 @@ class ReactPad extends React.Component {
   render() {
     return (
       <div className="main">
+        <div class="title">
+          ReactPad
+        </div>
         <div id="drum-machine">
           <div class="pad-container">
             <DrumPad key_name={"Q"} url={this.state.urls[0]} name={this.state.names[0]} key_code={this.state.key_codes[0]}/>
@@ -126,12 +129,12 @@ class ReactPad extends React.Component {
             <DrumPad key_name={"X"} url={this.state.urls[7]} name={this.state.names[7]} key_code={this.state.key_codes[7]}/>
             <DrumPad key_name={"C"} url={this.state.urls[8]} name={this.state.names[8]} key_code={this.state.key_codes[8]}/>
           </div>
-          
+          { /* 
           <div class="display-div">
             <div id="display">
               {this.state.curKey}
             </div>
-          </div>
+          </div> */ }
         </div>
       </div>
     ); 

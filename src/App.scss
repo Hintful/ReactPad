@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&family=Teko:wght@500&display=swap");
 
 body {
   margin: 0;
@@ -7,19 +7,27 @@ body {
 
 .main {
   display: flex;
+  flex-direction: column;
+  gap: 70px;
   height: 90vh;
   align-items: center;
   justify-content: center;
+
+  .title {
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+  }
   
   #drum-machine {
     background-color: black;
     display: flex;
     flex-direction: row;
-    width: 550px;
-    height: 350px;
+    width: auto;
+    height: auto;
     padding: 10px;
     gap: 10px;
     border-radius: 8px;
+    box-shadow: 0 0 2rem 0 rgba(0,0,0,0.5);
     
     .pad-container {
       display: grid;
@@ -30,7 +38,7 @@ body {
         "key-4 key-5 key-6"
         "key-7 key-8 key-9";
       padding: 10px;
-      width: 330px;
+      width: auto;
       height: auto;
       background-color: white;
       gap: 10px;
