@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactPad/static/css/main.8dcd1435.chunk.css",
-    "main.js": "/ReactPad/static/js/main.c264f8bf.chunk.js",
-    "main.js.map": "/ReactPad/static/js/main.c264f8bf.chunk.js.map",
+    "main.js": "/ReactPad/static/js/main.683bc79a.chunk.js",
+    "main.js.map": "/ReactPad/static/js/main.683bc79a.chunk.js.map",
     "runtime-main.js": "/ReactPad/static/js/runtime-main.e8f076a8.js",
     "runtime-main.js.map": "/ReactPad/static/js/runtime-main.e8f076a8.js.map",
     "static/js/2.4e945ff6.chunk.js": "/ReactPad/static/js/2.4e945ff6.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.e8f076a8.js",
     "static/js/2.4e945ff6.chunk.js",
     "static/css/main.8dcd1435.chunk.css",
-    "static/js/main.c264f8bf.chunk.js"
+    "static/js/main.683bc79a.chunk.js"
   ]
 }
