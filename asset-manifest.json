@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactpad/static/css/main.74e88728.chunk.css",
+    "main.js": "/reactpad/static/js/main.321110be.chunk.js",
+    "main.js.map": "/reactpad/static/js/main.321110be.chunk.js.map",
+    "runtime-main.js": "/reactpad/static/js/runtime-main.4505b13b.js",
+    "runtime-main.js.map": "/reactpad/static/js/runtime-main.4505b13b.js.map",
+    "static/js/2.4e945ff6.chunk.js": "/reactpad/static/js/2.4e945ff6.chunk.js",
+    "static/js/2.4e945ff6.chunk.js.map": "/reactpad/static/js/2.4e945ff6.chunk.js.map",
+    "static/js/3.78e68b4c.chunk.js": "/reactpad/static/js/3.78e68b4c.chunk.js",
+    "static/js/3.78e68b4c.chunk.js.map": "/reactpad/static/js/3.78e68b4c.chunk.js.map",
+    "index.html": "/reactpad/index.html",
+    "static/css/main.74e88728.chunk.css.map": "/reactpad/static/css/main.74e88728.chunk.css.map",
+    "static/js/2.4e945ff6.chunk.js.LICENSE.txt": "/reactpad/static/js/2.4e945ff6.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/reactpad/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4505b13b.js",
+    "static/js/2.4e945ff6.chunk.js",
+    "static/css/main.74e88728.chunk.css",
+    "static/js/main.321110be.chunk.js"
+  ]
+}
