@@ -33,6 +33,7 @@ class DrumPad extends React.Component {
   componentWillUnmount() {
     document.removeEventListener("keydown", this.handleKeyPress);
     document.removeEventListener("keyup", this.handleKeyUp);
+    document.removeEventListener("mouseup", this.mouseUpReset);
   }
   playSound() {
     this.audio.currentTime = 0; // allow re-play before sound ends
