@@ -3,8 +3,11 @@ import './App.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Helmet } from 'react-helmet';
+import ReactGA from 'react-ga';
 
 const TITLE = "ReactPad";
+
+ReactGA.initialize("G-D3Z7LQS3WW");
 
 class DrumPad extends React.Component {
   constructor(props) {
@@ -24,6 +27,7 @@ class DrumPad extends React.Component {
     this.playSound = this.playSound.bind(this);
   }
   componentDidMount() {
+    ReactGA.pageview(window.location.pathname + window.location.search);
     document.addEventListener("keydown", this.handleKeyPress);
     document.addEventListener("keyup", this.handleKeyUp);
     document.addEventListener("mouseup", this.mouseUpReset);
@@ -44,6 +48,10 @@ class DrumPad extends React.Component {
     }
   }
   handleKeyPress(event) {
+    ReactGA.event({
+      category: 'ReactPad User',
+      action: 'Key pressed'
+    });
     if(event.keyCode === this.props.key_code) {
       this.setState( { keydown: true } );
       this.playSound();
