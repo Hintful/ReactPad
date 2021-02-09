@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik&family=Teko:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&family=Teko:wght@500&family=Montserrat:wght@500&display=swap");
 
 body {
   margin: 0;
@@ -92,5 +92,14 @@ body {
         font-family: Rubik;
       }
     }
+  }
+}
+.credit {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 10px;
+  
+  a:link, a:visited{
+    color: black;
   }
 }

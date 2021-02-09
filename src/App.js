@@ -137,6 +137,9 @@ class ReactPad extends React.Component {
             </div>
           </div> */ }
         </div>
+        <div class="credit">
+          Coded and designed by <a href="https://kurtchoi.dev" target="_blank">Kurt Choi</a>
+        </div>
       </div>
     ); 
   }
