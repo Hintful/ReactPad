@@ -95,9 +95,16 @@ body {
   }
 }
 .credit {
+  margin-top: 10px;
   text-align: center;
   font-family: Montserrat;
   font-size: 10px;
+
+  /* make text unselectable */
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
   
   a:link, a:visited{
     color: black;
