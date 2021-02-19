@@ -1,13 +1,22 @@
 import logo from './logo.svg';
 import './App.scss';
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { Helmet } from 'react-helmet';
 import ReactGA from 'react-ga';
 
 const TITLE = "ReactPad";
 
-ReactGA.initialize("G-D3Z7LQS3WW");
+function usePageViews() {
+  useEffect(() => {
+    if(!window.GA_INIT) {
+      ReactGA.initialize("UA-186165133-1");
+      window.GA_INIT = true;
+    }
+    ReactGA.set({ page: window.location.pathname });
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+}
 
 class DrumPad extends React.Component {
   constructor(props) {
@@ -27,7 +36,6 @@ class DrumPad extends React.Component {
     this.playSound = this.playSound.bind(this);
   }
   componentDidMount() {
-    ReactGA.pageview(window.location.pathname + window.location.search);
     document.addEventListener("keydown", this.handleKeyPress);
     document.addEventListener("keyup", this.handleKeyUp);
     document.addEventListener("mouseup", this.mouseUpReset);
@@ -48,11 +56,11 @@ class DrumPad extends React.Component {
     }
   }
   handleKeyPress(event) {
-    ReactGA.event({
-      category: 'ReactPad User',
-      action: 'Key pressed'
-    });
     if(event.keyCode === this.props.key_code) {
+      ReactGA.event({
+        category: 'ReactPad',
+        action: 'Key pressed'
+      });
       this.setState( { keydown: true } );
       this.playSound();
     }
@@ -154,6 +162,8 @@ class ReactPad extends React.Component {
 }
 
 function App() {
+  usePageViews();
+
   return (
     <div className="App">
       <Helmet>
